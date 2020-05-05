@@ -8,6 +8,9 @@
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # [Aa]ssets/AssetStoreTools*
 
+[Aa]ssets/KenneyAssets.meta
+[Aa]ssets/KenneyAssets
+
 # Visual Studio cache directory
 .vs/
 
