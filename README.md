@@ -14,21 +14,14 @@ Built in Unity 2018.4.21f1
 ## TODO
 
 ### Feature Areas
-1. Core
-* Player Movement
-* Player Shooting
-* Enemy Movement
-* Spawn Enemy Waves
-* Player Health
-* Enemy Health
-2. Secondary
-* Score
-* Enemy Shooting
-3. Polish
-* Visual Effects
-* Sound Effects
-* Menus / Screens
-* Content / Tuning
+Core | Secondary | Polish
+---- | --------- | ------
+Player Movement | Score | Visual Effects
+Player Shooting | Enemy Shooting | Sound Effects
+Enemy Movement | | Menus / Screens
+Spawn Enemy Waves | | Content / Tuning
+Player Health | |
+Enemy Health | |
 
 ### General
 * 
