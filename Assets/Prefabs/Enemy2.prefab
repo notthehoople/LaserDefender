@@ -107,6 +107,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+  shotCounter: 0
+  minTimeBetweenShots: 0.2
+  maxTimeBetweenShots: 3
+  enemyLaserPrefab: {fileID: 0}
+  projectileSpeed: 10
 --- !u!58 &58744798507207390
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -120,6 +125,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.015461683}
   serializedVersion: 2
-  m_Radius: 0.52
+  m_Radius: 0.34991956
