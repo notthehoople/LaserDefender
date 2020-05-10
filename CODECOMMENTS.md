@@ -28,5 +28,16 @@ Enemy death FXs
 
 * Move the enemy along current path
 
+## Adding Sound Effects
 
-
+*     [SerializeField] AudioClip[] ballSounds;
+* // Cached component references
+*     AudioSource myAudioSource;
+* Under start:         myAudioSource = GetComponent<AudioSource>();
+*
+* On collision 2d against object that needs to make the sound:
+* AudioClip clip = ballSounds[Random.Range(0, ballSounds.Length)];
+*            myAudioSource.PlayOneShot(clip);
+*
+* Or: AudioSource.PlayClipAtPoint(breakingSoundEffect, Camera.main.transform.position);
+*      where breakingSoundEffect is the AudioClip you've added in [SerializeField]
