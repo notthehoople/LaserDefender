@@ -10,7 +10,6 @@ public class Enemy : MonoBehaviour
     [SerializeField] float health = 100;
     [SerializeField] int scoreValue = 150;
     [Header("Shooting")]
-    [SerializeField] float shotCounter;
     [SerializeField] float minTimeBetweenShots = 0.2f;
     [SerializeField] float maxTimeBetweenShots = 3f;
     [SerializeField] GameObject enemyLaserPrefab;
@@ -22,6 +21,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.7f;
     [SerializeField] AudioClip enemyDeathSound;
     [SerializeField] [Range(0,1)] float deathSoundVolume = 0.7f;
+
+    float shotCounter;
 
     // Cached component references
     AudioSource enemyAudioSource;
