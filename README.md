@@ -24,6 +24,7 @@ Player Health | |
 Enemy Health | |
 
 ### General
+* Text needs reworked. If screen size changes the text size follows and is unusable on big resolutions
 * Duplicate and create a Galaga homeage
 
 ### Specific
