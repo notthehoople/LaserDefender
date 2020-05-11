@@ -24,7 +24,7 @@ Player Health | |
 Enemy Health | |
 
 ### General
-* 
+* Duplicate and create a Galaga homeage
 
 ### Specific
 *
